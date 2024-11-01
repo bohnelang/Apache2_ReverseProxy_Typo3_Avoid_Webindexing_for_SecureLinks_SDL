@@ -2,8 +2,8 @@
 
 ## Introduction
 
-On Typo3 you have files that are only temporarely available by this URL. Normally web crawler do index this content and URL. Unfortunately the URL is onley valid for short time 
-and thus web crawler should not index this content. Otherwise you will notice in log fles a lot of 404 requests.
+On Typo3 you have files that are only temporarely available by its URL. Normally web crawler do index all content and URLs. Unfortunately some URLs are only valid for short time 
+and thus web crawlers should not index this content. Otherwise you will notice in log fles a lot of 404 requests.
 
 ## Solution
 In http header you could place infoation for web crawler:
