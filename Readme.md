@@ -1,4 +1,4 @@
-# Avoid indexing of SDL files on Typo3 by crawler
+# Avoid indexing of SDL files or cHash on Typo3 by crawler
 
 ## Introduction
 
