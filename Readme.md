@@ -15,7 +15,7 @@ In http header you could place infoation for web crawler:
 # "noindex, noarchive, nosnippet" a2enmod headers
 #
 Header set X-Robots-Tag "noindex, noarchive, nosnippet, nofollow" "expr=%{QUERY_STRING} =~ m#^(.*)tx_nawsecuredl(.*)$#"
-Header set X-Robots-Tag "noindex, noarchive, nosnippet, nofollow" "expr=%{Request_URI} =~ m#^/securedl/sdl-(.*)$#"
+Header set X-Robots-Tag "noindex, noarchive, nosnippet, nofollow" "expr=%{REQUEST_URI} =~ m#^/securedl/sdl-(.*)$#"
 ```
 
 ## Result
